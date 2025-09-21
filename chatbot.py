@@ -1,9 +1,12 @@
 import streamlit as st
 from langchain_groq import ChatGroq
-# Set up your ChatGroq instance
+from langchain_groq import ChatGroq
+
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+
 llm = ChatGroq(
     temperature=0,
-    groq_api_key= "grok_api",  # replace this with your real key or store it safely using Streamlit secrets
+    groq_api_key=GROQ_API_KEY,
     model_name="meta-llama/llama-4-scout-17b-16e-instruct"
 )
 
