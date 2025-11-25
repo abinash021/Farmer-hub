@@ -2,7 +2,7 @@ import streamlit as st
 from langchain_groq import ChatGroq
 from langchain_groq import ChatGroq
 
-GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+GROQ_API_KEY = "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"
 
 llm = ChatGroq(
     temperature=0,

@@ -56,7 +56,7 @@ with col3:
     Click below to explore more.
     """)
     st.markdown("""
-        <a href="https://kishan-chatbot.streamlit.app/" target="_blank">
+        <a href="https://chatbotfarmerudemy.streamlit.app//" target="_blank">
             <button style='background-color: #4CAF50; color: white; font-size: 18px; padding: 10px 24px; border: none; border-radius: 8px; cursor: pointer; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, transform 0.3s;'>
                 Explore Chatbot for Farmer
             </button>
